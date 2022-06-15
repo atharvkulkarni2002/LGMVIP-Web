@@ -1,0 +1,134 @@
+body{
+    background-image: linear-gradient(to right,green,yellow);
+}
+
+.container{
+    position: absolute;
+    top: 30%;
+    left: 40%;
+    height: 35px;
+    background-color: transparent;
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 8px );
+    -webkit-backdrop-filter: blur( 5px );
+    border-radius: 5px;
+}
+
+.task{
+    background-color: transparent;
+    border-style: none;
+    outline-style: none;
+    width: 200px;
+    height: 30px;
+    font-size: large;
+}
+
+.btn{
+    background-color: transparent;
+    position: relative;
+    width: 100px;
+    height: 32px;
+    top: 2px;
+    margin-left: 0;
+    border-style: none;
+    font-size: medium;
+    cursor: grab;
+}
+.btn:active{
+    background-image: linear-gradient(to bottom,rgb(105, 195, 209),rgb(193, 193, 193));
+}
+
+.createdTask{
+    background-color: tr;
+    margin: 8px;
+}
+
+.nbtn{
+    background-color: transparent;
+    border-style: none;
+    font-size: medium;
+    cursor: grab;
+    float: right;
+}
+
+.nbtn:active{
+    background-image: linear-gradient(to bottom,rgb(105, 195, 209),rgb(193, 193, 193));
+}
+
+@media only screen and (max-width: 992px) and (min-width:768px) {
+    .container{
+        left: 33%;
+    }
+    .task{
+        width: 150px;
+        height: 25px;
+        font-size: medium;
+    }
+    .btn{
+        width: 80px;
+        height: 26px;
+        font-size: small;
+    }
+    .ntask{
+        width: 150px;
+        height: 25px;
+        font-size: medium;
+    }
+    .nbtn{
+        width: 80px;
+        height: 26px;
+        font-size: small;
+    }
+}
+
+@media only screen and (max-width: 768px) and (min-width:600px) {
+    .container{
+        left: 34%;
+    }
+    .task{
+        width: 100px;
+        height: 20px;
+        font-size: 12px;
+    }
+    .ntask{
+        width: 100px;
+        height: 20px;
+        font-size: 12px;
+    }
+    .btn{
+        width: 70px;
+        height: 23px;
+        font-size: 8px;
+    }
+    .nbtn{
+        width: 70px;
+        height: 23px;
+        font-size: 8px;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .container{
+        left: 36%;
+    }
+    .task{
+        width: 70px;
+        height: 15px;
+        font-size: 12px;
+    }
+    .ntask{
+        width: 70px;
+        height: 15px;
+        font-size: 12px;
+    }
+    .btn{
+        width: 70px;
+        height: 18px;
+        font-size: 10px;
+    }
+    .nbtn{
+        width: 70px;
+        height: 18px;
+        font-size: 10px;
+    }
+}
+
