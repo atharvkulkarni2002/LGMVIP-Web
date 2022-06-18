@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>To Do App</title>
+        <link rel="stylesheet" href="task3.css">
+    </head>
+
+    <body>
+        <h1>Student Enrollment</h1>
+        <div class="container" id="cont">
+            <form id="forminput">
+                <div>
+                    <label>Name</label><input type="text" autocomplete="off" class="name"   id="NAME"  required>
+                </div>
+                <div>
+                    <label>Email</label><input type="email" autocomplete="off" class="email"  id="EMAIL"  required>
+                </div>
+                <div>
+                    <label>Website</label><input type="url" autocomplete="off" class="website"  id="WBESITE"  required>
+                </div>
+                <div>
+                    <label>Image Link</label><input type="url" autocomplete="off" class="Image-Link"  id="IMAGE"  required>
+                </div>
+                <div class="gen" id="gender">
+                    GENDER <input type="radio" name="mygender" id="MALE"  value="Male" required>MALE<input type="radio"id="FEMALE" name="mygender" value="Female" required>FEMALE
+                </div>
+                <div class="skill" id="skills">
+                    Skills <input type="checkbox"  value="Java" >Java<input type="checkbox"  value="HTML" >HTML<input type="checkbox"  value="CSS" >CSS
+                </div>
+                <div class="buttons">
+                    <input type="submit" value="Enroll Student">
+                    <button type="reset">Clear</button>
+            </div>
+            </form>
+        </div>
+    </body>
+    <script src="task3.js"></script>
+</html>
