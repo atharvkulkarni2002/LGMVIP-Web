@@ -1,0 +1,42 @@
+.container{
+    height: 70vh;
+    width: 98vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.calform{
+    padding: 30px;
+    border-radius: 20px;;
+    background-color: rgb(0, 0, 0);
+    box-shadow: 0 10px 40px 0 rgba(0, 8, 255, 0.37);
+    backdrop-filter: blur( 8px );
+    -webkit-backdrop-filter: blur( 5px );
+}
+.nums{
+    display:grid;
+    grid-template-columns: 120px 120px 120px 80px;
+}
+.nums input{
+    margin: 5px;
+    margin-top: 20px;
+    height: 40px;
+}
+.Screen{
+    margin-left: 5px;
+    width: 343px;
+    height: 60px;
+}
+.erase{
+    margin-left: 5px;
+    height: 60px;
+    width: 75px;
+    background-color: crimson;
+}
+.result{
+    background-color: crimson;
+}
+input{
+    border-style: none;
+    font-size: larger;
+}

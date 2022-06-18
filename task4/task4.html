@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="task4.css">
+</head>
+<body>
+    <h1 align="center">Calculator</h1>
+    <div class="container">    
+        <form name="forms" class="calform">
+            <input type="text" name="screen" class="Screen">
+            <input type="button" onclick="forms.screen.value=''" value="C" class="erase">
+        <div class="nums">
+            <input type="button" onclick="forms.screen.value+='1'" value="1">
+            <input type="button" onclick="forms.screen.value+='2'" value="2">
+            <input type="button" onclick="forms.screen.value+='3'" value="3">
+            <input type="button" onclick="forms.screen.value+='/'" value="/">
+            <input type="button" onclick="forms.screen.value+='4'" value="4">
+            <input type="button" onclick="forms.screen.value+='5'" value="5">
+            <input type="button" onclick="forms.screen.value+='6'" value="6">
+            <input type="button" onclick="forms.screen.value+='-'" value="-">
+            <input type="button" onclick="forms.screen.value+='7'" value="7">
+            <input type="button" onclick="forms.screen.value+='8'" value="8">
+            <input type="button" onclick="forms.screen.value+='9'" value="9">
+            <input type="button" onclick="forms.screen.value+='+'" value="+">
+            <input type="button" onclick="forms.screen.value+='.'" value=".">
+            <input type="button" onclick="forms.screen.value+='0'" value="0">
+            <input type="button" onclick="forms.screen.value=eval(forms.screen.value)" value="=" class="result">
+            <input type="button" onclick="forms.screen.value+='*'" value="*">
+        </div>
+        </form>
+    </div>
+</body>
+</html>
